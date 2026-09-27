@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](#)
 
 > **ระบบบริหารและจัดการหมวดหมู่ค่าใช้จ่ายองค์กร (v2.0.0)**  
-> พัฒนาขึ้นสำหรับ **บริษัท ตำรับไทย สมุนไพร จำกัด (TumrubThai Herbal Co., Ltd.)** เพื่อยกระดับการควบคุม ควบคุมวงเงินเบิกจ่าย และจัดสรรผังบัญชี (Chart of Accounts) ทั้งส่วนกลาง (Office) และสาขา (Shop) อย่างเป็นระบบ
+> พัฒนาขึ้นเพื่อยกระดับการควบคุม วงเงินเบิกจ่าย และจัดสรรผังบัญชี (Chart of Accounts) ทั้งส่วนกลาง (Office) และสาขา (Shop) อย่างเป็นระบบ
 
 ---
 
@@ -184,7 +184,7 @@ erDiagram
    $db_host = '127.0.0.1';
    $db_user = 'root';
    $db_pass = 'your_password';
-   $db_name = 'tumrubthai';
+   $db_name = 'expense_db';
    ```
    > 💡 **หมายเหตุเกี่ยวกับการทดสอบแบบ Offline / Local Development**:  
    > หากไม่พบเซิร์ฟเวอร์ MySQL ระบบจะสร้างไฟล์ฐานข้อมูล SQLite อัตโนมัติที่ `data/database.sqlite` พร้อมแทรกข้อมูลจำลอง (Mock Data) ให้ทันทีโดยไม่จำเป็นต้องนำเข้า SQL Script แต่อย่างใด
@@ -316,5 +316,5 @@ expense-management-system/
 
 ## 📄 ลิขสิทธิ์ (License)
 
-สงวนลิขสิทธิ์ © **บริษัท ตำรับไทย สมุนไพร จำกัด (TumrubThai Herbal Co., Ltd.)**  
+สงวนลิขสิทธิ์ © **Expense Management System (EMS)**  
 ห้ามมิให้ทำซ้ำ ดัดแปลง หรือเผยแพร่ส่วนหนึ่งส่วนใดของซอฟต์แวร์นี้ก่อนได้รับอนุญาตเป็นลายลักษณ์อักษร
