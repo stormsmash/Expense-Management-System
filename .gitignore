@@ -1,0 +1,6 @@
+# Local database file
+data/database.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
